@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.image{
+  background-image: url('/assets/DART-Art-web-2020.jpg');
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin: auto;
+  opacity: 1.2;
+}
+
+.text{
+  background-color: rgba(214, 106, 106, 0.1);
+
+}
+
+.text::placeholder{
+  color: black
+}
+
+.text:hover{
+  background-color: rgba(214, 106, 106, 0.1);
+}
+
+.form-label{
+  font-weight: bold;
+}
+
